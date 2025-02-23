@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<style>
+body{
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+button{
+    background-color: black;
+    padding: 25px 20px;
+    font-size: medium;
+    color: white;
+    transition: 0.4s;
+}
+button:hover {
+      background: white;
+      box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+      color: black;
+    }
+p {
+      font-size: 20px;
+      color: #333;
+      transition: all 0.3s ease-in-out;
+    }
+</style>
+</head>
+<body>
+        <p id="message">Click the button to change this text.</p>
+        <button onclick="changeText()">Click Me</button>
+        <script src="js.js"></script>
+</body>
+</html>
